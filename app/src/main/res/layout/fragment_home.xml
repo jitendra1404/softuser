@@ -6,8 +6,7 @@
     tools:context="Fragments.HomeFragment">
 
    <androidx.recyclerview.widget.RecyclerView
-       android:id="@+id/recyclerview"
+       android:id="@+id/studentRecyclerView"
        android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
-
+       android:layout_height="wrap_content"/>
 </FrameLayout>

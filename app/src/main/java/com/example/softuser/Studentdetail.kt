@@ -1,9 +1,11 @@
 package com.example.softuser
 
+import android.os.Parcel
+import android.os.Parcelable
 import java.io.Serializable
 
 
-data class studentdetail (
+data class Studentdetail (
         val Name:String?=null,
          val Age:String?=null,
         val Image:String?=null,
@@ -11,3 +13,4 @@ data class studentdetail (
         val Address:String?=null
 
 ):Serializable
+
